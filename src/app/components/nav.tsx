@@ -76,7 +76,7 @@ export function Nav() {
               Services
             </Link>
             <Link 
-              href="#technologies" 
+              href="#skills" 
               className="hover:text-pink-500 transition px-2 py-1"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -87,7 +87,7 @@ export function Nav() {
               className="hover:text-pink-500 transition px-2 py-1"
               onClick={() => setIsMenuOpen(false)}
             >
-              Portfolio
+              Work
             </Link>
             <Link 
               href="#contact" 
