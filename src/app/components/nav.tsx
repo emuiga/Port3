@@ -1,10 +1,17 @@
 "use client"
-import Link from "next/link"
 import { Menu, X, FileDown } from "lucide-react"
 import { useState } from "react"
 
 export function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+    setIsMenuOpen(false)
+  }
 
   return (
     <nav className="fixed w-full z-50 bg-slate-950/80 backdrop-blur-sm">
@@ -42,18 +49,30 @@ export function Nav() {
           </button>
 
           <div className="hidden lg:flex items-center gap-6">
-            <Link href="#services" className="hover:text-pink-500 transition">
+            <button 
+              onClick={() => scrollToSection('services')}
+              className="hover:text-pink-500 transition"
+            >
               Services
-            </Link>
-            <Link href="#skills" className="hover:text-pink-500 transition">
+            </button>
+            <button 
+              onClick={() => scrollToSection('skills')}
+              className="hover:text-pink-500 transition"
+            >
               Technologies
-            </Link>
-            <Link href="#portfolio" className="hover:text-pink-500 transition">
+            </button>
+            <button 
+              onClick={() => scrollToSection('portfolio')}
+              className="hover:text-pink-500 transition"
+            >
               Work
-            </Link>
-            <Link href="#contact" className="hover:text-pink-500 transition">
+            </button>
+            <button 
+              onClick={() => scrollToSection('contact')}
+              className="hover:text-pink-500 transition"
+            >
               Contact
-            </Link>
+            </button>
             
             <a
               href="/certifications/Stephen_Muiga_Resume.pdf"
@@ -68,34 +87,30 @@ export function Nav() {
 
         {isMenuOpen && (
           <div className="lg:hidden py-4 flex flex-col gap-4">
-            <Link 
-              href="#services" 
-              className="hover:text-pink-500 transition px-2 py-1"
-              onClick={() => setIsMenuOpen(false)}
+            <button 
+              onClick={() => scrollToSection('services')}
+              className="hover:text-pink-500 transition px-2 py-1 text-left"
             >
               Services
-            </Link>
-            <Link 
-              href="#skills" 
-              className="hover:text-pink-500 transition px-2 py-1"
-              onClick={() => setIsMenuOpen(false)}
+            </button>
+            <button 
+              onClick={() => scrollToSection('skills')}
+              className="hover:text-pink-500 transition px-2 py-1 text-left"
             >
               Technologies
-            </Link>
-            <Link 
-              href="#portfolio" 
-              className="hover:text-pink-500 transition px-2 py-1"
-              onClick={() => setIsMenuOpen(false)}
+            </button>
+            <button 
+              onClick={() => scrollToSection('portfolio')}
+              className="hover:text-pink-500 transition px-2 py-1 text-left"
             >
               Work
-            </Link>
-            <Link 
-              href="#contact" 
-              className="hover:text-pink-500 transition px-2 py-1"
-              onClick={() => setIsMenuOpen(false)}
+            </button>
+            <button 
+              onClick={() => scrollToSection('contact')}
+              className="hover:text-pink-500 transition px-2 py-1 text-left"
             >
               Contact
-            </Link>
+            </button>
             
             <a
               href="/certifications/Stephen_Muiga_Resume.pdf"
