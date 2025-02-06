@@ -1,8 +1,5 @@
 "use client"
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import { Github, Twitter, Linkedin } from "lucide-react"
-import Link from "next/link"
 
 export function About() {
   return (
@@ -19,7 +16,6 @@ export function About() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="relative h-[400px] flex items-center justify-center"
           >
-            {/* Code Journey Timeline */}
             <motion.div 
               className="absolute left-1/2 h-[300px] w-1 bg-gradient-to-b from-pink-500 to-purple-500"
               initial={{ height: 0 }}
@@ -27,7 +23,6 @@ export function About() {
               transition={{ duration: 1, delay: 0.5 }}
             />
             
-            {/* Timeline Points */}
             {[0, 1, 2].map((index) => (
               <motion.div
                 key={index}
@@ -54,7 +49,6 @@ export function About() {
 
             ))}
 
-            {/* Floating Elements */}
             <motion.div
               className="absolute w-20 h-20 rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 opacity-20"
               animate={{
@@ -84,14 +78,14 @@ export function About() {
           </motion.div>
 
           <div className="space-y-8">
-            <p className="text-gray-300">
-              I'm a <a className="text-pink-500 hover:text-purple-500 transition-colors">Fullstack Developer</a> specializing in building robust web applications that solve real-world challenges. My journey into software development began during my industrial attachment while pursuing my <a className="text-pink-500 hover:text-purple-500 transition-colors">BSc. in Mathematics and Computer Science</a> at <a href="https://www.jkuat.ac.ke/" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-purple-500 transition-colors">JKUAT</a>. During my attachment at <a className="text-pink-500 hover:text-purple-500 transition-colors">Nyandarua County Assembly</a>, I discovered my passion for creating impactful solutions. There, I successfully implemented a Library Management System that streamlined operations and improved resource accessibility for the organization. This experience opened my eyes to the transformative power of technology and set me on a path of continuous learning and growth.
+            <p className="text-gray-300 leading-relaxed">
+              I&apos;m a Fullstack Developer specializing in building robust web applications that solve real-world challenges. My journey into software development began during my industrial attachment while pursuing my BSc. in Mathematics and Computer Science at JKUAT. During my attachment at Nyandarua County Assembly, I discovered my passion for creating impactful solutions. There, I successfully implemented a library management system that streamlined operations and improved resource accessibility for the organization. This experience opened my eyes to the transformative power of technology and set me on a path of continuous learning and growth.
             </p>
             <p className="text-gray-300">
             Today, I channel this passion into developing innovative solutions at <a href="https://www.safaricom.co.ke/" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-purple-500 transition-colors">Safaricom PLC</a>, where I collaborate with cross-functional teams to build scalable products that enhance user experiences. I take pride in approaching each project with a user-centered mindset. Beyond my professional work, I regularly share my knowledge and experiences through technical articles on <a href="https://muiga-steve.hashnode.dev/" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-purple-500 transition-colors">my blog</a>, contributing to the developer community and staying current with industry trends.            </p>
             <p className="text-gray-300">
 
-            Looking ahead, I am excited to take on more challenging projects that push the boundaries of what's possible in web development. I aim to continue growing as a developer while creating meaningful applications that make a difference in people's lives.            </p>
+            Looking ahead, I am excited to take on more challenging projects that push the boundaries of what&apos;s possible in web development. I aim to continue growing as a developer while creating meaningful applications that make a difference in people&apos;s lives.            </p>
 
           </div>
         </div>

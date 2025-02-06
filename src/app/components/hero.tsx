@@ -18,11 +18,10 @@ export function Hero() {
 
   useEffect(() => {
     const currentTitle = titles[currentTitleIndex]
-    const typeSpeed = isDeleting ? 50 : 100 // Faster deletion
+    const typeSpeed = isDeleting ? 50 : 100 
     
     const handleTyping = () => {
       if (!isDeleting && currentText === currentTitle) {
-        // Wait before starting to delete
         setTimeout(() => setIsDeleting(true), 1500)
         return
       }

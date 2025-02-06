@@ -1,11 +1,18 @@
+'use client'
 import { Code, Palette, Database, Smartphone, Layout, Layers, PenTool } from "lucide-react"
 import { Card } from "@/components/ui/card"
+
 
 const services = [
   {
     icon: <Code className="w-8 h-8 text-blue-400" />,
     title: "Frontend Development",
     description: "Building responsive and interactive web applications using modern technologies like React, Next.js, and Tailwind CSS to create seamless user experiences.",
+  },
+  {
+    icon: <Layers className="w-8 h-8 text-blue-400" />,
+    title: "Fullstack Development",
+    description: "End-to-end development combining frontend and backend expertise to deliver complete web solutions, from database design to user interface.",
   },
   {
     icon: <Palette className="w-8 h-8 text-blue-400" />,
@@ -26,11 +33,6 @@ const services = [
     icon: <Layout className="w-8 h-8 text-blue-400" />,
     title: "Backend Development",
     description: "Building robust server-side applications using Node.js, Python, and databases like MongoDB and PostgreSQL to power your web applications.",
-  },
-  {
-    icon: <Layers className="w-8 h-8 text-blue-400" />,
-    title: "Fullstack Development",
-    description: "End-to-end development combining frontend and backend expertise to deliver complete web solutions, from database design to user interface.",
   },
   {
     icon: <PenTool className="w-8 h-8 text-blue-400" />,
