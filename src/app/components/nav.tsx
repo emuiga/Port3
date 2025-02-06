@@ -45,7 +45,7 @@ export function Nav() {
             <Link href="#services" className="hover:text-pink-500 transition">
               Services
             </Link>
-            <Link href="#technologies" className="hover:text-pink-500 transition">
+            <Link href="#skills" className="hover:text-pink-500 transition">
               Technologies
             </Link>
             <Link href="#portfolio" className="hover:text-pink-500 transition">
