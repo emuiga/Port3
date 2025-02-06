@@ -6,8 +6,9 @@ import { useEffect, useState } from "react"
 
 const titles = [
   "Full-Stack Developer",
-  "IoT Developer",
-  "Software Engineer",
+  "IoT Curious",
+  "Frontend Developer",
+  "Mobile Developer",
   "Technical Writer"
 ]
 
