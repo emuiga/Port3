@@ -49,7 +49,7 @@ export function Nav() {
               Technologies
             </Link>
             <Link href="#portfolio" className="hover:text-pink-500 transition">
-              Portfolio
+              Work
             </Link>
             <Link href="#contact" className="hover:text-pink-500 transition">
               Contact
@@ -98,7 +98,7 @@ export function Nav() {
             </Link>
             
             <a
-              href="/cv.pdf"
+              href="/certifications/Stephen_Muiga_Resume.pdf"
               download
               className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white rounded-lg hover:from-pink-600 hover:to-purple-600 transition-colors w-fit"
             >
