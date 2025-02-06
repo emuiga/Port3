@@ -46,7 +46,7 @@ const projects = [
 
   {
     title: "Portfolio Website v2",
-    description: "My personal portfolio website built with Next.js and Tailwind CSS, featuring a modern design and smooth animations.",
+    description: "My personal portfolio website built with React, featuring a modern design and smooth animations.",
     image: "/projects/Screenshot (201).png",
     tags: ["React", "Tailwind CSS"],
     liveUrl: "https://muiga.netlify.app",
@@ -54,11 +54,12 @@ const projects = [
   },
   {
     title: "Portfolio Website v1",
-    description: "My personal portfolio website built with Next.js and Tailwind CSS, featuring a modern design and smooth animations.",
+    description: "My personal portfolio website built with HTML, CSS and JavaScript.",
     image: "/projects/Screenshot (202).png",
     tags: ["HTML", "CSS", "JavaScript"],
     liveUrl: "https://muigasteve.netlify.app",
     githubUrl: "https://github.com/emuiga/Portfolio",
+
   },
   // Add more projects here
 ]
