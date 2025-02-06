@@ -27,7 +27,7 @@ const services = [
   {
     icon: <Smartphone className="w-8 h-8 text-blue-400" />,
     title: "Mobile Development",
-    description: "Developing cross-platform mobile applications using React Native and Flutter, ensuring your app works smoothly on both iOS and Android devices.",
+    description: "Developing cross-platform mobile applications using Ionic, ensuring your app works smoothly on both iOS and Android devices.",
   },
   {
     icon: <Layout className="w-8 h-8 text-blue-400" />,
