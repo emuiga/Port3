@@ -83,7 +83,7 @@ export function About() {
             </p>
 
             <p className="text-gray-300">
-            Today, I channel this passion into developing innovative solutions at my place of work, where I collaborate with a cross-functional teams to build scalable products that enhance user experiences. I take pride in approaching each project with a user-centered mindset. Beyond my professional work, I share my knowledge and experiences through technical articles on <a href="https://muiga-steve.hashnode.dev/" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-purple-500 transition-colors">my blog</a>, contributing to the developer community and staying current with industry trends.            </p>
+            Today, I channel this passion into developing innovative solutions at my place of work, where I collaborate with cross-functional teams to build scalable products that enhance user experiences. I take pride in approaching each project with a user-centered mindset. Beyond my professional work, I share my knowledge and experiences through technical articles on <a href="https://muiga-steve.hashnode.dev/" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-purple-500 transition-colors">my blog</a>, contributing to the developer community and staying current with industry trends.            </p>
             <p className="text-gray-300">
 
             Looking ahead, I am excited to take on more challenging projects that push the boundaries of what&apos;s possible in web development. I aim to continue growing as a developer while creating meaningful applications that make a difference in people&apos;s lives.            </p>
