@@ -12,7 +12,7 @@ const projects = [
     image: "/projects/Screenshot (106).png",
     tags: ["React", "Firebase", "Node.js", "Blockchain"],
     githubUrl: "https://github.com/emuiga/Innov8Pulse",
-    liveUrl: "https://innov8pulse.netlify.app"
+    // liveUrl: "https://innov8pulse.netlify.app"
 
 
   },
@@ -22,7 +22,7 @@ const projects = [
     image: "/projects/library-bg1.jpg",
     tags: ["PHP", "JS", "MySQL"],
     githubUrl: "https://github.com/emuiga/Santiago",
-    liveUrl: "https://library-management.demo.com"
+    // liveUrl: "https://library-management.demo.com"
 
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     description: "A solution for tracking conditions in warehouses, data centres, and factories using sensors, microcontrollers and a dashboard for monitoring the data.",
     image: "/projects/sensor network.jpg",
     tags: ["Node.js", "MQTT", "PostgreSQL", "Django", "Angular", "Ionic"],
-    liveUrl: "https://iot.muiga.tech",
+    // liveUrl: "https://iot.muiga.tech",
     githubUrl: "https://github.com/orgs/Anga-Afrika/repositories",
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     image: "/projects/Screenshot (201).png",
     tags: ["React", "Tailwind CSS"],
     liveUrl: "https://muiga.netlify.app",
-    githubUrl: "https://github.com/muigadev/portfolio",
+    githubUrl: "https://github.com/emuiga/portfolio",
   },
   {
     title: "Portfolio Website v1",
