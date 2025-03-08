@@ -12,7 +12,7 @@ interface Experience {
 const experiences: Experience[] = [
     {
         role: "Full Stack Developer",
-        company: "Safaricom PLC & KIFWA",
+        company: "KIFWA",
         duration: "Dec 2024 - Present",
         description: [
             "Focusing on building secure, scalable, and maintainable solutions"
